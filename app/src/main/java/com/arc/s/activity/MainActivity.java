@@ -1,9 +1,10 @@
-package com.arc.s;
+package com.arc.s.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import com.arc.s.R;
 
 /**
  * 要运行，需要有有一个 Activity

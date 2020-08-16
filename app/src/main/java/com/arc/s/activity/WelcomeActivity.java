@@ -1,10 +1,11 @@
-package com.arc.s;
+package com.arc.s.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
+import com.arc.s.R;
 
 /**
  * @author 叶超
@@ -16,7 +17,7 @@ public class WelcomeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //绑定视图
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_first);
         new Handler().postDelayed(
                 new Runnable() {
                     @Override

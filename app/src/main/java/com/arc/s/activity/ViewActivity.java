@@ -1,4 +1,4 @@
-package com.arc.s;
+package com.arc.s.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import com.arc.s.R;
 
 /**
  * @author may
